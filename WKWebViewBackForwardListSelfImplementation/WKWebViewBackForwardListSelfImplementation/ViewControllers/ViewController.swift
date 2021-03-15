@@ -29,14 +29,13 @@ class ViewController: UIViewController {
         show(controller, sender: sender)
         
     }
-    let key = "zombie"
-    let initUrl = "https://www.google.com"
+    let key = "hdrezkaaa"
+    let initUrl = "https://rezka.ag"
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.view.addSubview(button)
-        
         
         guard (HistoryStorage.shared.getHistoryFromUserDefaults()?[key] != nil) else {
             return
